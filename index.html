@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.css">
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/side-default.js"></script>
+
+</head>
+
+<body>
+
+    <header id="mainHeader" class="light ">
+        <div class="navWrap clearfix">
+            <nav>
+                <div class="divMenuToggle">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <ul class="ulPrimaryNav">
+                    <li style="width: 160px"></li>
+                    <li><a href="" title="صفحه اصلی مشهد">صفحه نخست</a></li>
+
+                    <li id="liSale" class="hasSubMenu">
+                        <a href="">خرید و فروش</a>
+                        <div class="divSubNavWrapper">
+                            <span class="spnArrow up sale"></span>
+                            <span class="spnArrow down sale"></span>
+                            <ul class="ulSubNav col-md-4 columns">
+                                <li><a href="" title="فروش آپارتمان، خرید خانه، خرید ملک، فروش خانه، فروش ملک، آپارتمان، خانه، ملک، خرید مشهد ">خرید و فروش آپارتمان مشهد</a></li>
+                                <li><a href="" title="فروش ویلایی، خرید ویلایی، خرید خانه، فروش خانه ویلایی، خانه، ویلایی، خرید، فروشی مشهد ">خرید و فروش خانه ویلایی مشهد</a></li>
+                                <li><a href="" title="پیش فروش آپارتمان، پیش خرید خانه آپارتمانی، پیش خرید خانه، پیش فروش ملک مسکونی مشهد ">پیش خرید آپارتمان مشهد</a></li>
+                                <li><a href="" title="معاوضه آپارتمان، خانه ویلایی، باغ و ویلا و زمین مشهد ">معاوضه مشهد</a></li>
+                                <li><a href="" title="خرید زمین، فروش زمین، زمین، خرید، فروش مشهد ">خرید و فروش زمین مشهد</a></li>
+                                <li><a href="" title="خرید مغازه، فروش مغازه، خرید ملک تجاری، فروش ملک تجاری، مغازه، خرید، فروش مشهد ">خرید و فروش مغازه و تجاری مشهد</a></li>
+                                <li><a href="" title="فروش باغ و ویلا، خرید باغ، فروش ویلا مشهد ">خرید و فروش باغ و ویلا مشهد</a></li>
+                                <li><a href="" title="خرید هتل و هتل آپارتمان، فروش هتل و هتل آپارتمان مشهد ">خرید و فروش هتل آپارتمان مشهد</a></li>
+                            </ul>
+                            <!--ulSubNav-->
+                            <div class="col-md-8 columns divNavOkasion">
+                                <a href=""><img src="images/menu3.jpg" style="float:left;"></a>
+                            </div>
+                            <!--divNavOkasion-->
+                        </div>
+                        <!--divSubNavWrapper-->
+                    </li>
+
+                    <li id="liMortgage" class="hasSubMenu">
+                        <a href="" title="اجاره ملک، اجاره ویلایی، رهن خانه، اجاره خانه مشهد ">رهن و اجاره</a>
+                        <div class="divSubNavWrapper">
+                            <span class="spnArrow up mortgage"></span>
+                            <span class="spnArrow down mortgage"></span>
+                            <ul class="ulSubNav col-md-4 columns">
+                                <li><a href="" title="اجاره آپارتمان، رهن و اجاره خانه، رهن ملک، رهن آپارتمان، آپارتمان، خانه، ملک، رهن، اجاره مشهد ">رهن و اجاره آپارتمان مشهد</a></li>
+                                <li><a href="" title="اجاره ویلایی، رهن و اجاره ویلایی، رهن خانه ویلایی، ویلایی، خانه، رهن، اجاره مشهد ">رهن و اجاره خانه ویلایی مشهد</a></li>
+                                <li><a href="" title="اجاره مغازه، رهن مغازه، رهن و اجاره مغازه، مغازه، تجاری، رهن، اجاره مشهد ">رهن و اجاره مغازه و تجاری مشهد</a></li>
+                                <li><a href="" title="اجاره باغ و ویلا، رهن و اجاره ویلا، رهن باغ مشهد ">رهن و اجاره باغ و ویلا مشهد</a></li>
+                                <li><a href="" title="رهن و اجاره هتل و هتل آپارتمان مشهد ">رهن و اجاره هتل آپارتمان مشهد</a></li>
+                            </ul>
+                            <!--ulSubNav-->
+                            <div class="col-md-8 columns divNavOkasion">
+                                <a href=""><img class="" id="" src="images/menu2.jpg" style="float:left;"></a>
+                            </div>
+                            <!--divNavOkasion-->
+                        </div>
+                        <!--divSubNavWrapper-->
+                    </li>
+
+                    <li><a href="" title="مشاورین املاک مشهد">مشاورین املاک</a></li>
+
+                    <li><a href="" title="مشاوره املاک و مستغلات">مشاوره</a></li>
+
+                    <li>
+                        <a href="" title="مانی پدیا، دانشنامه ساختمان و املاک مانیشن ">
+                        مانی پدیا
+                    </a>
+                    </li>
+                    <li><a id="registerNewEstate" href="" title="ثبت ملک در مانیشن">ثبت ملک</a></li>
+
+                </ul>
+                <!--ulPrimaryNav-->
+            </nav>
+
+            <a class="lnkLogoWrapper" href="">
+                <div id="divLogo"></div>
+                <!--divLgo-->
+            </a>
+
+
+
+            <div class="divSigninLnkWrapper">
+                <a href="" class="lnkTop btn btn-primary">ورود</a>
+                <a href="" class="left" style="position: relative; float: left; margin: 5px 0 0 10px; font-size: .9em; z-index: 1 ">ثبت نام</a>
+            </div>
+            <!--divSigninLnkWrapper-->
+
+        </div>
+        <!--row-->
+
+
+
+        <div class="hasdropdownwidget">
+            <a title='ثبت' id="lnkNew" class="tooltip dropdownwidget" data-dropdown="dropdownlinks">
+                <span class="main-tooltip">ثبت</span>
+            </a>
+            <div id="dropdownlinks">
+                <a title='ثبت ملک' href="" id="lnkNewEstate" class="tooltip">
+                    <span>ثبت ملک</span>
+                </a>
+                <a title='ثبت تقاضا' href="" id="lnkNewRequest" class="tooltip green">
+                    <span>ثبت تقاضا</span>
+                </a>
+                <a title='ارسال مطلب' href="" id="lnkNewContent" class="tooltip ">
+                    <span>ارسال مطلب</span>
+                </a>
+                <a title='ثبت سوال' href="" id="lnkNewQ" class="tooltip">
+                    <span>ثبت سوال</span>
+                </a>
+            </div>
+            <script>
+                $("#lnkNewEstate ").on('click', function(event) {
+                    $.post("index.php?ajax=true&plugMain=default ", {
+                        click: true,
+                        onAddEstateInFab: true
+                    });
+                });
+            </script>
+        </div>
+
+    </header>
+
+
+    <section class="text-sec">
+        <section class="text-sec-main text-sec-content col-md-12 col-sm-12 col-xs-12">
+            <hgroup class="hidden-xs">
+                <h1>معاملات مسکن از اینجا آغاز می شود!</h1>
+
+                <h2>خانه ای که به دنبال آن می گردید همین جاست، جستجوی خود را آغاز کنید.</h2>
+                <a href="" class="btn btn-default ">آشنایی با مانیشن</a>
+                <a href="" class="btn btn-success ">ثبت ملک</a>
+            </hgroup>
+        </section>
+    </section>
+
+    <section class="search col-md-12 col-sm-12 col-xs-12">
+        <div class="input-group col-md-6 col-sm-8 col-xs-8 col-md-offset-3 col-sm-offset-2 col-xs-offset-2 " style="margin-top: 2%;">
+            <input type="text" style="font-size:14px;line-height: 4em;height: 4em;" autocomplete="off" class="form-control" placeholder="نام شهر یا خیابان یا شناسه ملک" id="product-serialnumber">
+
+            <div class="input-group-btn">
+                <select class="form-control" style="width: 120px; height: 56px;">
+        <option>خرید و فروش</option>
+        <option>رهن و اجاره</option>
+</select>
+
+            </div>
+            <div class="input-group-btn">
+                <button style="height: 4em;" class="btn btn-default" type="button" id="btnSearch">
+                <i class="glyphicon glyphicon-search"></i>
+            </button>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="clear"></div>
+    <section class="text-sec">
+        <section class="container-fluid">
+            <section class="row">
+
+                <div class="col-md-4 col-sm-12 col-xs-12 easyNav">
+                    <a title="کانال تلگرام ملک های مشهد مانیشن" href="">
+                        <img src="images/m12.png"></a>
+                    <h3>کانال تلگرام ملک های مشهد مانیشن</h3>
+                    <p class="text-justify">با عضویت در کانال تلگرام ملک های مشهد مانیشن، اولین نفری باشید که از تمامی ملک های ثبت شده در شهر مشهد باخبر می شود.</p>
+                    <a href="" class="btn btn-default">عضویت در کانال</a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 easyNav">
+                    <a title="همکاری مانیشن و روزنامه خراسان " href="">
+                        <img src="images/m13.png">
+                    </a>
+
+                    <h3>همکاری مانیشن و روزنامه خراسان</h3>
+                    <p class="text-justify">با آغاز همکاری مانیشن و روزنامه خراسـان، از این پس می توانید ملک خود را در مانیشن فوری کنید و یک نوبت آگهی رایگان در روزنامه خراسان هدیه بگیرید</p>
+                    <a href="" class="btn btn-default">ثبت آگهی رایگان در خراسان</a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 easyNav">
+                    <a title="همکاری مانیشن و روزنامه قدس" href="">
+                        <img src="images/m7.png"></a>
+                    <h3>همکاری مانیشن و روزنامه قدس</h3>
+                    <p class="text-justify">با آغاز همکاری مانیشن و روزنامه قدس، می توانید ملک خود را در مانیشن فوری کنید و یک نوبت آگهی رایگان در روزنامه قدس هدیه بگیرید.</p>
+                    <a href="" class="btn btn-default">ثبت آگهی رایگان در قدس</a>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!----codebazan.ir--->
+
+
+    <div class="clear"></div>
+    <section class="event-sec">
+        <section class="container-fluid">
+            <section class="row">
+                <section class="event-sec-content col-md-12 col-sm-12 col-xs-12">
+                    <article class="event-content">
+                        <h2 class="title">
+                            <i class="zmdi zmdi-fire"></i>
+                            <span>ملک های فوری</span>
+                        </h2>
+                        <aside class="event-item-sec col-md-12 col-sm-12 col-xs-12">
+                            <div class="event-item col-md-3 col-sm-6 col-xs-6">
+                                <div class="item-photo">
+
+                                    <a href="#"><img src="images/articles/article1.jpg" alt=""></a>
+
+                                    <div class="item-info">
+                                        <h2><a href="#">فروش خانه ویلایی 200 متری <br>مشهد خیابان هفده شهریور</a></h2>
+                                        <span class="gheymat">850 میلیون تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event-item col-md-3 col-sm-6 col-xs-6">
+                                <div class="item-photo">
+
+                                    <a href="# "><img src="images/articles/article1.jpg" alt=""></a>
+
+                                    <div class="item-info">
+                                        <h2><a href="#">فروش خانه ویلایی 200 متری <br>مشهد خیابان هفده شهریور</a></h2>
+                                        <span class="gheymat">850 میلیون تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event-item col-md-3 col-sm-6 col-xs-6">
+                                <div class="item-photo">
+
+                                    <a href="#"><img src="images/articles/article1.jpg" alt=""></a>
+
+                                    <div class="item-info">
+                                        <h2><a href="#">فروش خانه ویلایی 200 متری <br>مشهد خیابان هفده شهریور</a></h2>
+                                        <span class="gheymat">850 میلیون تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event-item col-md-3 col-sm-6 col-xs-6">
+                                <div class="item-photo">
+
+                                    <a href="#"><img src="images/articles/article1.jpg" alt=""></a>
+
+                                    <div class="item-info">
+                                        <h2><a href="#">فروش خانه ویلایی 200 متری <br>مشهد خیابان هفده شهریور</a></h2>
+                                        <span class="gheymat">850 میلیون تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </aside>
+                    </article>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!-- text-sec class -->
+    <div class="clear"></div>
+    <section class="text-sec">
+        <section class="container-fluid">
+
+            <article class="text-sec-profile col-md-12 col-sm-12 col-xs-12">
+                <section class="row">
+                    <h2 class="title"><i class="zmdi zmdi-star zmdi-hc-1g"></i>
+                        <span>مشاورین املاک منتخب مشهد</span>
+                    </h2>
+
+                    <div class="member col-md-3 col-sm-12 col-xs-12">
+                        <div class="avatar">
+                            <img src="images/1.png" alt="">
+                        </div>
+                        <div class="member-photo col-md-12 col-sm-12 col-xs-12">
+
+                            <img src="images/articles/article1.jpg" alt="">
+                            <div class="member-info">
+                                <a href="">
+                                    <h5>مجید باغانی</h5>
+                                </a>
+                                <h5>املاک آتی</h5>
+                                <h5>09152056100</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="member col-md-3 col-sm-12 col-xs-12">
+                        <div class="avatar">
+                            <img src="images/6.png" alt="">
+                        </div>
+                        <div class="member-photo col-md-12 col-sm-12 col-xs-12">
+                            <img src="images/articles/article1.jpg" alt="">
+                            <div class="member-info">
+                                <a href=" ">
+                                    <h5>مجید باغانی</h5>
+                                </a>
+                                <h5>املاک آتی</h5>
+                                <h5>09152056100</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member col-md-3 col-sm-12 col-xs-12">
+                        <div class="avatar">
+                            <img src="images/7.png" alt="">
+                        </div>
+                        <div class="member-photo col-md-12 col-sm-12 col-xs-12">
+                            <img src="images/articles/article1.jpg" alt="">
+                            <div class="member-info">
+                                <a href="">
+                                    <h5>مجید باغانی</h5>
+                                </a>
+                                <h5>املاک آتی</h5>
+                                <h5>09152056100</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member col-md-3 col-sm-12 col-xs-12">
+                        <div class="avatar">
+                            <img src="images/7.png" alt="">
+                        </div>
+                        <div class="member-photo col-md-12 col-sm-12 col-xs-12">
+                            <img src="images/articles/article1.jpg" alt="">
+                            <div class="member-info">
+                                <a href="">
+                                    <h5>مجید باغانی</h5>
+                                </a>
+                                <h5>املاک آتی</h5>
+                                <h5>09152056100</h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+        </section>
+    </section>
+
+    <section class="text-sec-app">
+        <section class="row">
+            <div class="col-md-7 col-sm-10 col-xs-10">
+                <h2>مانیشن در دستان شماست!<img src="images/test-version.png" class="imgTestVersion"></h2>
+                <p>اپلیکیشن اندروید مانیشن این امکان را به شما می دهد تا هر جا که هستید، از میان<br> ده ها هزار ملک، ملک دلخواه تان را سریعتر و راحت تر پیدا کنید. <br>با این اپلیکیشن می توانید در کمتر از 2 دقیقه ملک یا تقاضای خود را ثبت و در اختیار هزاران
+                    بازدیدکننده روزانه و صدها مشاور املاک متخصص مانیشن قرار دهید.</p>
+                <a href="#" class="btn btn-success">دریافت آپ مانیشن</a>
+            </div>
+        </section>
+    </section>
+    <div class="clear">
+        <div class="row row-inner">
+            <h2>
+                <i class="zmdi zmdi-calendar"></i>
+                <span>ملک های امروز مشهد</span>
+            </h2>
+            <div class="col-md-4 col-sm-8 col-xs-8 pull-row">
+                <ul class="locallink">
+                    <li class="listitem">
+                        <a href="#">فروش زمین 850 متری مشهد آرامگاه فردوسی</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش مغازه و تجاری 500 متری مشهد سناباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان 175 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="# ">فروش آپارتمان 120 متری مشهد بلوار موسوی قوچانی</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان 210 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان150 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش باغ و ویلا 1000 متری مشهد جاده سنتو</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-8 col-xs-8 pull-row">
+                <ul class="locallink">
+                    <li class="listitem">
+                        <a href="#">فروش زمین 850 متری مشهد آرامگاه فردوسی</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="# ">فروش مغازه و تجاری 500 متری مشهد سناباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان 175 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان 120 متری مشهد بلوار موسوی قوچانی</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان 210 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان150 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش باغ و ویلا 1000 متری مشهد جاده سنتو</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-8 col-xs-8 pull-row">
+                <ul class="locallink">
+                    <li class="listitem">
+                        <a href="#">فروش زمین 850 متری مشهد آرامگاه فردوسی</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش مغازه و تجاری 500 متری مشهد سناباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="# ">فروش آپارتمان 175 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان 120 متری مشهد بلوار موسوی قوچانی</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">رهن و اجاره آپارتمان 230 متری مشهد بلوار فارغ التحصیلان</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش آپارتمان150 متری مشهد بلوار وکیل آباد</a>
+                    </li>
+                    <li class="listitem">
+                        <a href="#">فروش باغ و ویلا 1000 متری مشهد جاده سنتو</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="slider">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/slider/slide1.jpg " alt="...">
+                    <div class="carousel-caption">
+                        <h3><img src="images/manipedialogo.png"></h3>
+                        <h4 itemprop="about">پل شیشه ای بر فراز گراندا</h4>
+                        <span>پل طبیعت بولین پل صرفا پیاده رو درود که بوستان آب و آتش را به پارک جنگلی طالقانی متصل می کند.</span> <br>
+                        <a href="" class="btn btn-default">بیشتر بخوانید</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slider/slide2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3><img src="images/manipedialogo.png"></h3>
+                        <h4 itemprop="about">پل شیشه ای بر فراز گراند </h4>
+                        <span>پل طیاده رو در ایرانلقانی متصل می کند. این پل به لحاظ مکان یابی در محل تلاقی بزرگراه های  ...</span>
+                        <br>
+                        <a href="" class="btn btn-default">بیشتر بخوانید</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slider/slide3.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3><img src="images/manipedialogo.png"></h3>
+                        <h4 itemprop="about">پل شیشه ای بر فراز گراند </h4>
+                        <span>پل طبیعت با 3 ستطالقانی متصل می کند. این پل به لحاظ مکان یابی در محل تلاقی بزرگراه های  ...</span>
+                        <br>
+                        <a href="" class="btn btn-default">بیشتر بخوانید</a>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+    <div class="clear">
+        <div class="row row-inner">
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <h3>خرید و فروش ملک مشهد</h3>
+                <ul class="locallink">
+                    <li>
+                        <a href="">خانه و املاک مشهد بلوار هاشمیه</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <h3>رهن اجاره ملک های مشهد</h3>
+                <ul class="locallink">
+                    <li>
+                        <a href="">خانه و املاک مشهد بلوار هاشمیه</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <h3>جدیدترین ملک های مشهد</h3>
+                <ul class="locallink">
+                    <li>
+                        <a href="">خانه و املاک مشهد بلوار هاشمیه</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">هتل و هتل آپارتمان مشهد امام رضا ( خیابان تهران )</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <h3>مشاورین املاک مشهد</h3>
+                <ul class="locallink">
+                    <li>
+                        <a href="">خانه و املاک مشهد بلوار هاشمیه</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                    <li><a href="">خانه و املاک مشهد بلوار امامت</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="divfooterbg col-md-12 col-sm-12 col-xs-12"></div>
+
+    <footer class="col-md-12 col-sm-12 col-xs-12">
+        <section class="container-fluid">
+            <section class="row">
+                <article class="top-footer">
+                    <div class="col-md-10 col-sm-12 col-xs-12">
+                        <div class="footer-contact">
+                            <span>   پشتیبانی:</span>
+                            <span><a href="">38472676(051)</a></span>
+                            <span>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;</span>
+                            <span><a href="">09128506575</a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="zmdi zmdi-facebook-box zmdi-hc-2x"></i>
+                        <i class="zmdi zmdi-linkedin-box zmdi-hc-2x"></i>
+                        <i class="zmdi zmdi-instagram zmdi-hc-2x"></i>
+                    </div>
+                </article>
+                <article class="bottom-footer col-md-12">
+                    <aside class="box col-md-3 col-sm-6 col-xs-12">
+                        <h6>مانیشن</h6>
+                        <ul class="row">
+                            <div class="col-md-8 col-sm-6 col-xs-6 pull-right">
+                                <li><a href="index.html">معرفی اکانت های مانیشن</a></li>
+                                <li><a href="blog.html">سفارش سایت</a></li>
+                                <li><a href="blog.html">ملک های فوری</a></li>
+                                <li><a href="faq.html">تبلیغات در مانیشن</a></li>
+                                <li><a href="gallery-main.html">ضوابط و قوانین</a></li>
+                                <li><a href="gallery-inner-2.html">سوالات متداول</a></li>
+                                <li><a href="gallery-inner-2.html">تاریخچه مانیشن</a></li>
+                                <li><a href="gallery-inner-2.html">تماس با ما</a></li>
+                            </div>
+
+                        </ul>
+                    </aside>
+                    <aside class="box col-md-3 col-sm-6 col-xs-12">
+                        <h6>وب سایت مشاورین املاک</h6>
+                        <div class="col-md-10 col-sm-6 col-xs-6">
+                            <ul>
+                                <li><a href="about.html">املاک شهریار</a></li>
+                                <li><a href="contact.html">املاک مشهدسکنا</a></li>
+                                <li><a href="#">املاک مهتاب</a></li>
+                                <li><a href="#">املاک مهتاب</a></li>
+                                <li><a href="#">معرفی وب سایت من در این مکان</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <!-- address box -->
+
+                    <aside class="box col-md-3 col-sm-12 col-xs-12">
+                        <h6>شهرهای منتخب</h6>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <ul>
+                                <li><a href="about.html">خانه املاک مشهد</a></li>
+                                <li><a href="contact.html">خانه املاک مشهد</a></li>
+                                <li><a href="#">خانه املاک مشهد</a></li>
+                                <li><a href="contact.html">خانه املاک مشهد</a></li>
+                                <li><a href="#">خانه املاک مشهد</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="box col-md-2 col-sm-12 col-xs-12">
+                        <h6>نماد اعتماد الکترونیک</h6>
+                    </aside>
+                </article>
+
+                <div class="sub-footer">
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <p>مانیشن 1395 - 1390 | کلیه حقوق این سایت متعلق به تیم مانیشن می باشد.</p>
+                        <p>هرگونه کپی برداری از محتوا و طرح های بکار رفته در سایت، طبق قوانین حقوق مولفین پیگرد قانونی خواهد داشت.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </footer>
+
+    <div id="staticbuttons" style="position:absolute; z-index:10">
+
+        <a href="javascript:" onmouseover="myspeed=-thespeed" onmouseout="myspeed=0"><i class="zmdi zmdi-caret-up-circle zmdi-hc-3x"></i>
+    </a><br>
+        <a href="javascript:" onmouseover="myspeed=thespeed" onmouseout="myspeed=0"><i class="zmdi zmdi-caret-down-circle zmdi-hc-3x"></i>
+    </a> </div>
+
+    <script>
+        var Hoffset = 70 //Enter buttons' offset from right edge of window (adjust depending on images width)
+        var Voffset = 100 //Enter buttons' offset from bottom edge of window (adjust depending on images height)
+        var thespeed = 5 //Enter scroll speed in integer (Advised: 1-3)
+
+        var ieNOTopera = document.all && navigator.userAgent.indexOf("Opera") == -1
+        var myspeed = 0
+
+        var ieHoffset_extra = document.all ? 15 : 0
+        var cross_obj = document.all ? document.all.staticbuttons : document.getElementById ? document.getElementById("staticbuttons") : document.staticbuttons
+
+        function iecompattest() {
+            return (document.compatMode && document.compatMode != "BackCompat") ? document.documentElement : document.body
+        }
+
+        function positionit() {
+            var dsocleft = document.all ? iecompattest().scrollLeft : pageXOffset
+            var dsoctop = document.all ? iecompattest().scrollTop : pageYOffset
+            var window_width = ieNOTopera ? iecompattest().clientWidth + ieHoffset_extra : window.innerWidth + ieHoffset_extra
+            var window_height = ieNOTopera ? iecompattest().clientHeight : window.innerHeight
+
+            if (document.all || document.getElementById) {
+                cross_obj.style.left = parseInt(dsocleft) + parseInt(window_width) - Hoffset + "px"
+                cross_obj.style.top = dsoctop + parseInt(window_height) - Voffset + "px"
+            } else if (document.layers) {
+                cross_obj.left = dsocleft + window_width - Hoffset
+                cross_obj.top = dsoctop + window_height - Voffset
+            }
+        }
+
+        function scrollwindow() {
+            window.scrollBy(0, myspeed)
+        }
+
+        function initializeIT() {
+            positionit()
+            if (myspeed != 0) {
+                scrollwindow()
+            }
+        }
+
+        if (document.all || document.getElementById || document.layers)
+            setInterval("initializeIT()", 20)
+    </script>
+
+</body>
+
+</html>
